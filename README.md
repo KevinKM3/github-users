@@ -1,3 +1,15 @@
+##
+
+What is the convention for naming classes in CSS?
+
+What is one way to stop a form from submitting with JavaScript?
+
+When and how should HTML code be validated?
+
+What is the DOM? Please explain in your own words.
+
+Which one is better: CSS Grid, Flexbox or just plain CSS?
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
