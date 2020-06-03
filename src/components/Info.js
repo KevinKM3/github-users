@@ -25,7 +25,7 @@ const Info = ({ data, repositories }) => {
             )}
           </td>
           <td>
-            {repositories.map((repo) => (
+            {repositories.slice(0, 5).map((repo) => (
               <div className="ui relaxed divided list" key={repo.name}>
                 <div className="item"></div>
                 <i className="large github middle aligned icon"></i>
