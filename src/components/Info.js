@@ -1,20 +1,18 @@
 import React from "react";
 
-const Info = () => {
+const Info = ({ data, repositories }) => {
   return (
-    <table class="ui celled table">
+    <table className="ui celled table">
       <thead>
         <tr>
           <th>Name</th>
-          <th>Age</th>
-          <th>Job</th>
+          <th>Avatar</th>
+          <th>Repositories</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td data-label="Name">James</td>
-          <td data-label="Age">24</td>
-          <td data-label="Job">Engineer</td>
+          <td>{data.name}</td>
         </tr>
       </tbody>
     </table>

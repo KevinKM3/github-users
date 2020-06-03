@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Info from "./Info";
 
 const Search = () => {
   const [data, setData] = useState({});
@@ -50,6 +51,7 @@ const Search = () => {
             <i className="github icon"></i>
             Search Users
           </button>
+          <Info data={data} repositories={repositories} />
         </div>
       </div>
     </>

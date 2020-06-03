@@ -2,6 +2,7 @@ import React from "react";
 import Search from "./components/Search";
 
 import "./App.css";
+import Info from "./components/Info";
 
 function App() {
   return (
