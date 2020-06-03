@@ -1,4 +1,5 @@
 import React from "react";
+import Search from "./components/Search";
 
 import "./App.css";
 
@@ -8,7 +9,9 @@ function App() {
       <header className="App-header">
         <h1>GitHub User Search</h1>
       </header>
-      <main></main>
+      <main>
+        <Search />
+      </main>
     </div>
   );
 }
